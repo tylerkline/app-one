@@ -16,6 +16,17 @@
                 "draggable": "true"
             }
         },
+        "button": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "enabled": true,
+                "label": "Button"
+            }
+        },
         "list": {
             "prototype": "digit/ui/list.reel",
             "properties": {
@@ -50,7 +61,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <h1 data-montage-id="title">
-
+            <button data-montage-id="button"></button>
         </h1>
     </div>
 </body>
